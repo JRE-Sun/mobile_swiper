@@ -1,0 +1,126 @@
+/*定义一个名字为titleAnimate动画，实现从页面的左边淡入页面效果*/
+
+@keyframes titleAnimate {
+    0% {
+        -webkit-transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        opacity: 0;
+    }
+    /*在0%时设置文字在想X轴150px位移处（左边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+
+@-webkit-keyframes titleAnimate {
+    0% {
+        -webkit-transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes titleAnimate {
+    0% {
+        -webkit-transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes titleAnimate {
+    0% {
+        -webkit-transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes titleAnimate {
+    0% {
+        -webkit-transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        transform: scale3d(.4, .4, .4) translate3d(0, 30%, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+/*定义一个名字为thirdUlAnimate动画，实现从页面的左边淡入页面效果*/
+
+@keyframes thirdUlAnimate {
+    0% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    /*在0%时设置文字在想X轴150px位移处（左边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: rotate(0deg);
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+
+@-webkit-keyframes thirdUlAnimate {
+    0% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    /*在0%时设置文字在想X轴150px位移处（左边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: rotate(0deg);
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+
+@-o-keyframes thirdUlAnimate {
+    0% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    /*在0%时设置文字在想X轴150px位移处（左边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: rotate(0deg);
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+
+@-ms-keyframes thirdUlAnimate {
+    0% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    /*在0%时设置文字在想X轴150px位移处（左边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: rotate(0deg);
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+
+@-moz-keyframes thirdUlAnimate {
+    0% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    /*在0%时设置文字在想X轴150px位移处（左边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: rotate(0deg);
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
