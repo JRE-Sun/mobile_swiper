@@ -4,7 +4,23 @@
 <head>
     <title></title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">-->
+    <!--支持uc全屏-->
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+    <!--支持QQ浏览器全屏，可是我自己实验不行-->
+    <!--<meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />-->
+
+
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -12,6 +28,7 @@
     <link rel="stylesheet" href="css/demo2_media.css">
     <link rel="stylesheet" href="css/demo2_animate.css">
 </head>
+<!--在电脑上浏览器，手机浏览器(浏览器要全屏)一点问题没有。可是手机浏览器不全屏就糟糕了。暂时也不晓得怎么搞-->
 
 <body>
     <!-- Swiper -->
@@ -68,8 +85,14 @@
 
                 </div>
                 <div class="row" style="margin-left: 50px;">
-                    <p class="ani col-xs-12" swiper-animate-effect="zoomInUp" swiper-animate-duration="0.5s">暂无工作经验，但是自己经常编写各种界面或改写特效，注册、登录等页面、表单验证、轮播等特效 也独立写了小米首页进行高仿并且进行响应式修改。 实现美团网站买家基本功能,注册、登录、修改密码、修改账户、买商品最基本的功能。用appserv，能实现演示
-                    </p>
+                    <div class="ani col-xs-12" swiper-animate-effect="zoomInUp" swiper-animate-duration="0.5s">
+                        <p>暂无工作经验</p>
+                        <p>1. 自己经常编写各种界面或改写特效，注册、登录等页面、表单验证、轮播等特效</p>
+                        <p>2. 独立写了小米首页进行高仿并且进行响应式修改</p>
+                        <p>3. 实现美团网站买家基本功能,注册、登录、修改密码、修改账户、买商品最基本的功能。用appserv，能实现演示</p>
+                        <p>4. 能够根据psd图片，还原成网页</p>
+                        <p>5. 能够自己独立编写电脑或者手机端响应式的网站</p>
+                    </div>
                 </div>
             </div>
             <div class="swiper-slide fifty container-fluid">
@@ -78,16 +101,20 @@
 
                 </div>
                 <div class="row" style="margin-left: 50px;">
-                    <p class="ani col-xs-12" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s">本人勤奋努力、积极上进、有责任感。有良好的协调、沟通能力、自学能力强、心理素质良好。有较强的团队合作精神、人际关系良好。能够胜任前端开发工程师的工作。</p>
+                    <div class="ani col-xs-12" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s">
+                        <p>本人自学能力强、勤奋努力、积极上进、有责任感。</p>
+                        <p>有良好的协调、沟通能力、自学能力强、心理素质良好。</p>
+                        <p>有较强的团队合作精神、人际关系良好。能够胜任前端开发工程师的工作。</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Add Pagination -->
+        <!--增加分页-->
         <div class="swiper-pagination"></div>
     </div>
     <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/swiper.animate1.0.2.min.js"></script>
     <script src="js/swiper.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/demo2.js"></script>
 </body>

@@ -15,4 +15,5 @@ $(function() {
             swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
         }
     });
+
 });
