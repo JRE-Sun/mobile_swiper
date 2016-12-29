@@ -1,214 +1,53 @@
 /* 超小设备（手机 ） */
 
-@media (min-width: 320px) {
-    .first h1 {
-        font-size: 20px;
-    }
-    .first h2 {
-        font-size: 20px;
-    }
-    .second h1 {
-        font-size: 20px;
-    }
-    .second .second-content ul {
-        /*width: 500px;*/
-        margin: 0 auto;
-        margin-top: 50px;
-        overflow: hidden;
-    }
-    .second .second-content ul li {
-        height: 25px;
-        line-height: 25px;
-        font-size: 20px;
-        color: white;
-        width: 500px;
-        float: left;
-        list-style: none;
-        text-align: left;
-        margin-left: 70px;
-    }
-    .second .second-content .line {
-        margin-top: 25px;
-        width: 100%;
-        clear: both;
-        height: 2px;
-        background-color: white;
-    }
-    .second .second-content p {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 20px;
-        color: yellow;
-        width: 700px;
-    }
-    .second .second-content a {
-        display: block;
-        margin: 0 auto;
-        margin-top: 10px;
-        text-align: left;
-        font-size: 16px;
-        color: yellow;
-        /*width: 700px;*/
-        text-decoration: none;
-    }
-    .third h1 {
-        margin-top: 25px;
-        color: white;
-        font-size: 25px;
-    }
-    .third .third-content ul {
-        /*width: 700px;*/
-        height: auto;
-        margin: 0 auto;
-        margin-top: 15px;
-    }
-    .third .third-content ul li {
-        font-size: 20px;
-        color: white;
-        /*width: 700px;*/
-        float: left;
-        list-style: none;
-        text-align: left;
-    }
-    .fourth h1 {
-        margin-top: 25px;
-        color: white;
-        font-size: 20px;
-    }
-    .fourth p {
-        display: block;
-        /*width: 700px;*/
-        /*margin: 0 auto;*/
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 18px;
-        color: white;
-        text-align: left;
-    }
-    .fifty {
-        background: -webkit-linear-gradient(top, #5b317a 0, #7a448e 46%, #a25b85 64%, #cc7478 82%, #e9896e 100%);
-    }
-    .fifty h1 {
-        margin-top: 25px;
-        color: white;
-    }
-    .fifty p {
-        display: block;
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        text-align: left;
-    }
-}
+@media (min-width: 320px) {}
 
 
 /* 小型设备（平板电脑，768px 起） */
 
 @media (min-width: 768px) {
-    .first h1 {
-        font-size: 25px;
-    }
-    .first h2 {
-        font-size: 25px;
-    }
     .second h1 {
-        font-size: 25px;
+        /*margin-top: 25px;*/
+        /*color: white;*/
+        font-size: 28px;
     }
-    .second .second-content ul {
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 50px;
-        overflow: hidden;
-    }
-    .second .second-content ul li {
-        height: 55px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        width: 350px;
-        float: left;
-        list-style: none;
-        text-align: left;
-    }
-    .second .second-content .line {
-        margin-top: 25px;
-        width: 100%;
-        clear: both;
-        height: 2px;
-        background-color: white;
+    .second .second-content .second-p {
+        margin-top: 15px;
     }
     .second .second-content p {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 30px;
-        color: yellow;
-        width: 700px;
-    }
-    .second .second-content a {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 30px;
-        color: yellow;
-        width: 700px;
-        text-decoration: none;
+        color: white;
+        font-size: 22px;
     }
     .third h1 {
         margin-top: 25px;
         color: white;
+        font-size: 24px;
     }
-    .third .third-content ul {
-        width: 700px;
-        height: auto;
-        margin: 0 auto;
-        margin-top: 15px;
-    }
-    .third .third-content ul li {
-        line-height: 55px;
-        font-size: 30px;
+    .third .third-content p {
         color: white;
-        width: 700px;
-        list-style: none;
-        text-align: left;
+        font-size: 20px;
     }
     .fourth h1 {
         margin-top: 25px;
         color: white;
+        font-size: 24px;
     }
     .fourth p {
-        display: block;
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 30px;
         color: white;
-        text-align: left;
-    }
-    .fifty {
-        background: -webkit-linear-gradient(top, #5b317a 0, #7a448e 46%, #a25b85 64%, #cc7478 82%, #e9896e 100%);
+        font-size: 20px;
+        margin-top: 15px;
+        line-height: 1.6;
     }
     .fifty h1 {
         margin-top: 25px;
         color: white;
+        font-size: 24px;
     }
     .fifty p {
-        display: block;
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 30px;
         color: white;
-        text-align: left;
+        font-size: 20px;
+        margin-top: 15px;
+        line-height: 1.6;
     }
 }
 
@@ -216,105 +55,20 @@
 /* 中型设备（台式电脑，992px 起） */
 
 @media (min-width: 992px) {
-    .first h1 {
-        font-size: 25px;
-    }
-    .first h2 {
-        font-size: 25px;
-    }
-    .second h1 {
-        font-size: 25px;
-    }
-    .second .second-content ul {
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 50px;
-        overflow: hidden;
-    }
-    .second .second-content ul li {
-        height: 55px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        width: 350px;
-        float: left;
-        list-style: none;
-        text-align: left;
-    }
-    .second .second-content .line {
-        margin-top: 25px;
-        width: 100%;
-        clear: both;
-        height: 2px;
-        background-color: white;
-    }
     .second .second-content p {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 30px;
-        color: yellow;
-        width: 700px;
+        font-size: 26px;
     }
     .second .second-content a {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 30px;
-        color: yellow;
-        width: 700px;
-        text-decoration: none;
+        font-size: 22px;
     }
-    .third h1 {
-        margin-top: 25px;
-        color: white;
-    }
-    .third .third-content ul {
-        width: 700px;
-        height: auto;
-        margin: 0 auto;
-        margin-top: 15px;
-    }
-    .third .third-content ul li {
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        width: 700px;
-        list-style: none;
-        text-align: left;
-    }
-    .fourth h1 {
-        margin-top: 25px;
-        color: white;
+    .third .third-content p {
+        font-size: 24px;
     }
     .fourth p {
-        display: block;
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        text-align: left;
-    }
-    .fifty {
-        background: -webkit-linear-gradient(top, #5b317a 0, #7a448e 46%, #a25b85 64%, #cc7478 82%, #e9896e 100%);
-    }
-    .fifty h1 {
-        margin-top: 25px;
-        color: white;
+        font-size: 24px;
     }
     .fifty p {
-        display: block;
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        text-align: left;
+        font-size: 24px;
     }
 }
 
@@ -322,104 +76,19 @@
 /* 大型设备（大台式电脑，1200px 起） */
 
 @media (min-width: 1200px) {
-    .first h1 {
-        font-size: 30px;
-    }
-    .first h2 {
-        font-size: 30px;
-    }
-    .second h1 {
-        font-size: 30px;
-    }
-    .second .second-content ul {
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 50px;
-        overflow: hidden;
-    }
-    .second .second-content ul li {
-        height: 55px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        width: 350px;
-        float: left;
-        list-style: none;
-        text-align: left;
-    }
-    .second .second-content .line {
-        margin-top: 25px;
-        width: 100%;
-        clear: both;
-        height: 2px;
-        background-color: white;
-    }
     .second .second-content p {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 30px;
-        color: yellow;
-        width: 700px;
+        font-size: 26px;
     }
     .second .second-content a {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 30px;
-        color: yellow;
-        width: 700px;
-        text-decoration: none;
+        font-size: 22px;
     }
-    .third h1 {
-        margin-top: 25px;
-        color: white;
-    }
-    .third .third-content ul {
-        width: 700px;
-        height: auto;
-        margin: 0 auto;
-        margin-top: 15px;
-    }
-    .third .third-content ul li {
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        width: 700px;
-        list-style: none;
-        text-align: left;
-    }
-    .fourth h1 {
-        margin-top: 25px;
-        color: white;
+    .third .third-content p {
+        font-size: 24px;
     }
     .fourth p {
-        display: block;
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        text-align: left;
-    }
-    .fifty {
-        background: -webkit-linear-gradient(top, #5b317a 0, #7a448e 46%, #a25b85 64%, #cc7478 82%, #e9896e 100%);
-    }
-    .fifty h1 {
-        margin-top: 25px;
-        color: white;
+        font-size: 24px;
     }
     .fifty p {
-        display: block;
-        width: 700px;
-        margin: 0 auto;
-        margin-top: 25px;
-        line-height: 55px;
-        font-size: 30px;
-        color: white;
-        text-align: left;
+        font-size: 24px;
     }
 }
